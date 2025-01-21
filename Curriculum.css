@@ -1,0 +1,44 @@
+.lateral{
+    background-color: aquamarine;
+    width: 20%;
+    margin: 20px;
+    padding: 20px;
+    align-items: center
+     
+}
+
+.boton{
+    background-color: rgba(202, 119, 212, 0.521);
+    padding: 8px;
+    
+}
+
+& .boton:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+
+.centro{
+    align-items:center;
+    background-color: aqua;
+    display:flex;
+    flex-direction:column;
+    list-style: none;
+    width: 50%;
+    justify-items: center;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.boton1{
+    background-color: rgba(9, 41, 148, 0.521);
+    padding: 8px;
+    margin: 10px;
+}
+
+& .boton1:hover{
+    background-color: brown;
+    cursor: pointer;
+
+}
